@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnExit = new System.Windows.Forms.Button();
             this.BtnPayMode = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BtnExit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -46,6 +46,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 450);
             this.panel1.TabIndex = 0;
+            // 
+            // BtnExit
+            // 
+            this.BtnExit.BackgroundImage = global::Supermarket_mvp.Properties.Resources.cerrar1;
+            this.BtnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BtnExit.Location = new System.Drawing.Point(0, 374);
+            this.BtnExit.Name = "BtnExit";
+            this.BtnExit.Size = new System.Drawing.Size(200, 76);
+            this.BtnExit.TabIndex = 2;
+            this.BtnExit.UseVisualStyleBackColor = true;
             // 
             // BtnPayMode
             // 
@@ -66,15 +76,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // BtnExit
-            // 
-            this.BtnExit.Location = new System.Drawing.Point(0, 374);
-            this.BtnExit.Name = "BtnExit";
-            this.BtnExit.Size = new System.Drawing.Size(200, 76);
-            this.BtnExit.TabIndex = 2;
-            this.BtnExit.Text = "button1";
-            this.BtnExit.UseVisualStyleBackColor = true;
             // 
             // MainView
             // 

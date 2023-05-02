@@ -156,6 +156,7 @@
             this.BtnNew.Size = new System.Drawing.Size(195, 56);
             this.BtnNew.TabIndex = 4;
             this.BtnNew.UseVisualStyleBackColor = true;
+            this.BtnNew.Click += new System.EventHandler(this.BtnNew_Click);
             // 
             // DgPayMode
             // 

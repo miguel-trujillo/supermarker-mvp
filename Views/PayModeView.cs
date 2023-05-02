@@ -41,6 +41,12 @@ namespace Supermarket_mvp.Views
                     SearchEvent?.Invoke(this, EventArgs.Empty);
                 }
             };
+            BtnNew.Click += delegate { AddNewEvent?.Invoke(this, EventArgs.Empty); };
+            BtnEdit.Click += delegate { EditEvent?.Invoke(this, EventArgs.Empty); };
+            BtnDelete.Click += delegate { DeleteEvent?.Invoke(this, EventArgs.Empty); };
+            BtnSave.Click += delegate { SaveEvent?.Invoke(this, EventArgs.Empty); };
+            BtnCancel.Click += delegate { CancelEvent?.Invoke(this, EventArgs.Empty); };
+
         }
 
         public event EventHandler SearchEvent;
@@ -115,6 +121,9 @@ namespace Supermarket_mvp.Views
             return instance;
         }
 
-      
+        private void BtnNew_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
