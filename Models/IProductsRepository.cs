@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Supermarket_mvp.Models
 {
-    internal interface ProductsRepository
+    internal interface IProductsRepository
     {
         void Add(ProductsModel productsModel);
         void Edit(ProductsModel productsModel);
